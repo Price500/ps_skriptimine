@@ -1,0 +1,1 @@
+﻿Get-Process | where{$_.Name -eq 'notepad'} | select ProcessName, Id
